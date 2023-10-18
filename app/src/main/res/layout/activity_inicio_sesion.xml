@@ -116,11 +116,12 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="273dp"
-        android:layout_height="42dp"
+        android:layout_height="50dp"
         android:layout_marginBottom="76dp"
         android:backgroundTint="@color/grayboton"
         android:text="Ingresar"
         android:textColor="@color/textcolor"
+        app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.466"
