@@ -24,24 +24,23 @@
             android:exported="false"/>
 
         <activity
-            android:name=".pagina_inicio"
+            android:name=".pagina_cursos"
             android:exported="false" />
         <activity
             android:name=".inicio_sesion"
             android:exported="false" />
         <activity
-            android:name=".pagina2"
+            android:name=".metodo_inicio"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
 
+        <activity android:name=".pagina_principal"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

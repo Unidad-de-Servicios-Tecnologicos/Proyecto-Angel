@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class pagina_inicio extends AppCompatActivity {
+public class pagina_cursos extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pagina_inicio);
+        setContentView(R.layout.activity_pagina_cursos);
     }
 }

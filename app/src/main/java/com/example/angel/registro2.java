@@ -2,6 +2,7 @@ package com.example.angel;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.DatePicker;
@@ -17,7 +18,7 @@ public class registro2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.registro2);
+        setContentView(R.layout.activity_registro2);
 
         editTextDate = findViewById(R.id.editTextDate);
         imageViewCalendar = findViewById(R.id.imageViewCalendar);
@@ -29,6 +30,11 @@ public class registro2 extends AppCompatActivity {
                 showDatePickerDialog();
             }
         });
+    }
+
+    public void btnRegistro2(View v){
+        Intent intent = new Intent(this, pagina_cursos.class);
+        startActivity(intent);
     }
 
     private void showDatePickerDialog() {
