@@ -14,17 +14,6 @@ public class inicio_sesion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inicio_sesion);
 
-        ImageView atras = findViewById(R.id.atras);
-
-
-        atras.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(inicio_sesion.this,metodo_inicio.class);
-                startActivity(intent);
-            }
-        });
-
 
     }
 

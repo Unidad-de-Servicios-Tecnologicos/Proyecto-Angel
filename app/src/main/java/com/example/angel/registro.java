@@ -14,16 +14,6 @@ public class registro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro);
 
-        ImageView atras = findViewById(R.id.atras);
-
-        atras.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(registro.this,metodo_inicio.class);
-                startActivity(intent);
-            }
-        });
-
     }
 
 

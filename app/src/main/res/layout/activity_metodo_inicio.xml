@@ -10,9 +10,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="331dp"
-        android:layout_height="328dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="267dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="96dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -22,6 +22,7 @@
         android:id="@+id/textView"
         android:layout_width="327dp"
         android:layout_height="197dp"
+        android:layout_marginTop="32dp"
         android:justificationMode="inter_word"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at justo ac nunc condimentum pulvinar. Sed euismod libero ac purus tincidunt, a posuere libero fringilla. In hac habitasse platea dictumst. Quisque in arcu non orci tincidunt faucibus. Nulla facilisi."
         android:textColor="@color/textcolor"

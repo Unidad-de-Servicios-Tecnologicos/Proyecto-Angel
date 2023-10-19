@@ -8,29 +8,18 @@
     tools:context=".inicio_sesion">
 
 
-    <ImageView
-        android:id="@+id/atras"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/atras" />
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="268dp"
         android:layout_height="26dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="110dp"
         android:text="Hola de nuevo, Mariana"
         android:textColor="@color/textcolor"
         android:textSize="22dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.24"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/atras" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <View
         android:id="@+id/view"
@@ -76,7 +65,6 @@
         android:background="@drawable/border_input"
         android:ems="10"
         android:inputType="text"
-
         android:textColor="@color/bordegray"
         android:textColorHint="@color/bordegray"
         app:layout_constraintEnd_toEndOf="parent"
