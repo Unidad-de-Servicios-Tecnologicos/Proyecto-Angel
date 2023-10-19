@@ -12,8 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Angel"
         tools:targetApi="31">
+
         <activity
-<<<<<<< HEAD
             android:name=".registro2"
             android:exported="false" />
         <activity
@@ -21,7 +21,9 @@
             android:exported="false" />
         <activity
             android:name=".registro"
-=======
+            android:exported="false"/>
+
+        <activity
             android:name=".pagina_inicio"
             android:exported="false" />
         <activity
@@ -32,8 +34,8 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
->>>>>>> master
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
