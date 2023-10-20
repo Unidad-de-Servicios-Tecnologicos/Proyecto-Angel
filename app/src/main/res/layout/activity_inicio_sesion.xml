@@ -47,25 +47,23 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="268dp"
-        android:layout_height="26dp"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
         android:layout_marginTop="36dp"
-        android:layout_marginEnd="50dp"
         android:text="Correo electronico"
         android:textColor="@color/textgray"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="306dp"
-        android:layout_height="39dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
         android:background="@drawable/border_input"
         android:ems="10"
+        android:paddingStart="10dp"
         android:inputType="text"
         android:textColor="@color/bordegray"
         android:textColorHint="@color/bordegray"
@@ -75,10 +73,9 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="268dp"
-        android:layout_height="26dp"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="50dp"
         android:text="Contraseña"
         android:textColor="@color/textgray"
         android:textSize="15dp"
@@ -88,11 +85,10 @@
 
     <EditText
         android:id="@+id/editTextText7"
-        android:layout_width="309dp"
-        android:layout_height="37dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
         android:background="@drawable/border_input"
-
+        android:paddingStart="10dp"
         android:ems="10"
         android:inputType="textPassword"
         android:textColor="@color/bordegray"
@@ -103,8 +99,8 @@
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="280dp"
-        android:layout_height="50dp"
+        android:layout_width="350dp"
+        android:layout_height="59dp"
         android:layout_marginTop="190dp"
         android:backgroundTint="@color/grayboton"
         android:onClick="btnLogin"
