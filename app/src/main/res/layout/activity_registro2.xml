@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="386dp"
+        android:layout_width="match_parent"
         android:layout_height="73dp"
         android:background="@drawable/border_title"
         android:elevation="50dp"
@@ -28,7 +28,7 @@
 
     <EditText
         android:id="@+id/editTextTextEmailAddress2"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="48dp"
@@ -41,14 +41,13 @@
         android:textColorHint="@color/gray"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPassword3"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
@@ -56,18 +55,17 @@
         android:background="@drawable/border_input"
         android:ems="10"
         android:hint="  Primer apellido"
-        android:textColor="@color/gray"
         android:inputType="text"
+        android:textColor="@color/gray"
         android:textColorHint="@color/gray"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress2" />
 
     <EditText
         android:id="@+id/editTextTextPassword4"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
@@ -80,18 +78,17 @@
         android:textColorHint="@color/gray"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword3" />
 
     <Button
         android:id="@+id/btnRegistro2"
-        android:onClick="btnRegistro2"
-        android:layout_width="337dp"
+        android:layout_width="350dp"
         android:layout_height="59dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="@color/gray"
+        android:onClick="btnRegistro2"
         android:text="Continuar"
         android:textColor="@color/white"
         android:textSize="19sp"
@@ -100,7 +97,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView11"
@@ -118,7 +115,7 @@
 
     <EditText
         android:id="@+id/editTextNumber"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
@@ -131,13 +128,12 @@
         android:textColorHint="@color/gray"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword4" />
 
     <EditText
         android:id="@+id/editTextDate"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="40dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
@@ -149,7 +145,6 @@
         android:textColorHint="@color/gray"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
 
@@ -157,10 +152,10 @@
         android:id="@+id/imageViewCalendar"
         android:layout_width="34dp"
         android:layout_height="37dp"
+        android:layout_marginStart="310dp"
         android:layout_marginTop="24dp"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber"
         app:layout_constraintVertical_bias="0.0"
@@ -171,15 +166,14 @@
         android:id="@+id/checkBox"
         android:layout_width="24dp"
         android:layout_height="17dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="310dp"
         android:text="CheckBox"
         app:layout_constraintBottom_toTopOf="@+id/btnRegistro2"
-        app:layout_constraintEnd_toStartOf="@+id/textView11"
-        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDate"
-        app:layout_constraintVertical_bias="0.98" />
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
