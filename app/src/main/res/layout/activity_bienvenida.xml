@@ -56,6 +56,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="@color/blue"
+        android:onClick="btnbienvenida"
         android:text="Comenzar"
         android:textColor="@color/black"
         android:textSize="20sp"

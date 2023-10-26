@@ -33,7 +33,7 @@ public class registro2 extends AppCompatActivity {
     }
 
     public void btnRegistro2(View v){
-        Intent intent = new Intent(this, pagina_cursos.class);
+        Intent intent = new Intent(this, bienvenida.class);
         startActivity(intent);
     }
 
