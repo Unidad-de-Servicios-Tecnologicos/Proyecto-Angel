@@ -9,13 +9,14 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="313dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="312dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="68dp"
         android:text="Existen muchos tipos de lideres, ¿Cuál eres tú? Pero primero vamos a conocerte."
         android:textColor="@color/white"
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -23,10 +24,12 @@
         android:id="@+id/textView2"
         android:layout_width="313dp"
         android:layout_height="46dp"
+        android:layout_marginTop="4dp"
         android:text="Realizaremos un test para fortalecer las habilidades."
         android:textColor="@color/white"
         android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -90,7 +93,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/binvenida" />
+        app:srcCompat="@drawable/bienvenida" />
 
     <TextView
         android:id="@+id/textView3"
